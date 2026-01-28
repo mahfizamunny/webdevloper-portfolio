@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+/* Shared style */
+.text{
+   color:  #FD6E0A;
+}
+.dark-2{
+    color: #474747 ;
+}
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    border:none ;
+}
+/* Nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    font-size:20px ;
+}
+/* Banner styles */
+.greetings{
+    font-size: 45px;
+    f
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 70px;
+}
+.banner-image{
+    width: 590px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 400px;
+}
+/* header style */
+.header{
+    background-image: url("../images/developer.png"), url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+
+}
